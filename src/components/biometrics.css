@@ -1,0 +1,17 @@
+.biometrics-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-lg);
+}
+
+.biometrics-title {
+  color: var(--text-muted);
+  margin-bottom: 1em;
+}
+
+.heartrate-container-info,
+.device-container-info {
+  display: flex;
+  align-items: center;
+  gap: var(--spacer-lg);
+}

@@ -1,0 +1,29 @@
+.KPI-card{
+    position: relative;
+    background-color: var(--card-bg);
+    border: 2px solid;
+    border-color: var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1.25rem 2.25em;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.KPI-card p {
+    font-size: var(--fs-body);
+    font-weight: 400;
+}
+
+.KPI-card h5 {
+    color: var(--text-main);
+    font-size: var(--fs-hero);
+    font-weight: 800;
+}
+
+.KPI-card-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}

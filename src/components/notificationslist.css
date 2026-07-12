@@ -1,0 +1,18 @@
+.notifications-container-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.notifications-alert-count-badge {
+  background-color: var(--status-critical-bg);
+  color: var(--status-critical);
+  padding: 0.5em 1em;
+  border-radius: var(--radius-lg);
+}
+
+.notifications-container-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-lg);
+}

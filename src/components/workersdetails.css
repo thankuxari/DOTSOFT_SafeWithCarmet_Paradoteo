@@ -1,0 +1,26 @@
+.workers-details-container {
+  position: relative;
+  background-color: var(--input-bg);
+  border: 2px solid;
+  border-color: var(--border-color);
+  padding: var(--spacer-md) var(--spacer-md);
+  border-radius: var(--radius-md);
+}
+
+.worker-details-header,
+.map-live-details-container p {
+  font-weight: 100;
+  color: var(--text-muted);
+}
+
+.worker-details-live-information {
+  margin-top: var(--spacer-md);
+  display: flex;
+  gap: 10rem;
+}
+
+.map-live-details-chip-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,4 @@
+.red-dot {
+    color: var(--status-critical);
+    font-size: 30px;
+}

@@ -1,0 +1,20 @@
+.map-badge{
+    padding: 0.4rem 1.25rem;
+    border-radius: var(--radius-lg);
+}
+
+.map-badge-circle{
+    font-size: var(--fs-sm);
+    margin-right: 0.25rem;  
+}
+
+.map-badge-success {
+    background-color: var(--status-ok-bg);
+    color: var(--status-ok)
+}
+
+.map-badge-error {
+    background-color: var(--status-critical-bg);
+    color: var(--status-critical);
+
+}

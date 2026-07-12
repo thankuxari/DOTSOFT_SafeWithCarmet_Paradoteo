@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-dark: #1b4d79;
+  --bg-main: #f4f7f9;
+
+  --status-ok: #27ae60;
+  --status-critical: #c0392b;
+
+  --status-ok-bg: #e8f8eb;
+  --status-critical-bg: #fdedec;
+
+  --status-high: #d35400;
+  --status-high: #d35400;
+
+  --card-bg: #ffffff;
+  --border-color: #d1dbe5;
+
+  --input-bg: #f4f4f4a2;
+
+  --text-main: #2c3e50;
+  --text-muted: #909090;
+
+  --fs-hero: 32px;
+  --fs-title: 18px;
+  --fs-body: 14px;
+  --fs-sm: 12px;
+
+  --radius-lg: 16px;
+  --radius-md: 8px;
+  --radius-sm: 6px;
+  --radius-pill: 9999px;
+
+  --spacer-sm: 8px;
+  --spacer-md: 16px;
+  --spacer-lg: 24px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
+}
+
+body {
+  background-color: var(--bg-main);
+  padding: 1.5rem;
+}

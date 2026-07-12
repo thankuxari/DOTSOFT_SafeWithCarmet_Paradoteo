@@ -1,0 +1,13 @@
+.workers-table-container {
+  border-top: 1px solid #ddd;
+}
+
+.workers-table-row .MuiTableCell-root {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+}

@@ -1,0 +1,21 @@
+.badge {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+    background: var(--primary-dark);
+    color: white;
+
+    min-width: 30px;
+    height: 30px;
+    padding: 0 6px;
+
+    border-radius: var(--radius-pill);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: var(--fs-body);
+    font-weight: 800;
+}
