@@ -4,7 +4,8 @@
 
 ---
 
-Στο project τεχνολογίες που χρησιμοποιήθηκανε React 19, σκέτο css και Material UI για μερικά μικρά components, FontAwesome για icons, ChartJS για τα charts και Vite για γρήγορο setup.
+Στο project τεχνολογίες που χρησιμοποιήθηκανε είναι React 19, σκέτο css και Material UI για μερικά μικρά components, FontAwesome για icons, ChartJS για τα charts και Vite για γρήγορο setup.
+Υλοποιήθηκαν η Οθόνη 1,2,3 και το project είναι responsive για desktop και για tablets με δομημένα components και συνεπές στύλ.
 
 ### How to run
 
