@@ -29,6 +29,9 @@ export default function MapComplianceGraph() {
       legend: {
         display: false,
       },
+      datalabels: {
+        display: false,
+      },
     },
     scales: {
       x: {

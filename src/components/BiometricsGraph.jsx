@@ -27,6 +27,9 @@ export default function BiometricsGraph() {
       legend: {
         display: false,
       },
+      datalabels: {
+        display: false,
+      },
     },
     scales: {
       x: {

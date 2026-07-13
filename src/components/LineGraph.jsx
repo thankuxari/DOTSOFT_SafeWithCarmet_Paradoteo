@@ -27,9 +27,12 @@ export default function LineGraph() {
       legend: {
         display: false,
       },
+      datalabels: {
+        display: false,
+      },
     },
     scales: {
-      x: { display: false }, //
+      x: { display: false }, 
       y: {
         display: false,
         suggestedMin: 50,
