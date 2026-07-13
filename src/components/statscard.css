@@ -1,0 +1,17 @@
+.stats-card {
+  background-color: var(--input-bg);
+  padding: 0.5rem 0.85rem;
+  border: 2px solid;
+  border-color: var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.stats-card p {
+  font-size: var(--fs-body);
+  color: var(--text-muted);
+}
+
+.stats-card span {
+  font-weight: 800;
+  font-size: var(--fs-title);
+}

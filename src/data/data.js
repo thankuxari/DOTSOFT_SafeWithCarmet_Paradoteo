@@ -47,13 +47,14 @@ export const alerts = [
     time: "09:32",
   },
 ];
-const incidents = [
+export const incidents = [
   {
     date: "2026-06-28",
     workerId: "W-101",
     role: "Ηλεκτρολόγος",
     type: "Πτώση",
     severity: "critical",
+    zone: "Zone A",
     conditions: {
       weather: "βροχή",
       tempC: 24,
