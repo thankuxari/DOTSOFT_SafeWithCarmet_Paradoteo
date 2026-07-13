@@ -33,6 +33,10 @@
   cursor: pointer;
 }
 
+.notification-card-footer button:hover {
+  background-color: #165993;
+}
+
 .notification-card-critical {
   border-left-color: var(--status-critical);
 }

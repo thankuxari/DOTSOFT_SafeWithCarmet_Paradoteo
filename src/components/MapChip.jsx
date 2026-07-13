@@ -1,12 +1,23 @@
 import Chip from "@mui/material/Chip";
-import "./mapchip.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export default function MapChip({ title, value }) {
-  console.log(value);
   return (
     <Chip
       className="map-chip"
-      label={title}
+      label={
+        <span
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "0.5rem",
+          }}
+        >
+          {title}
+          <FontAwesomeIcon icon={value ? faCheck : faXmark} />
+        </span>
+      }
       sx={{
         padding: 2,
         backgroundColor: value
@@ -16,6 +27,7 @@ export default function MapChip({ title, value }) {
         border: "1px solid currentColor",
         borderRadius: "var(--radius-sm)",
         fontWeight: 600,
+        cursor: "pointer",
       }}
     />
   );

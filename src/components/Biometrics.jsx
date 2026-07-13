@@ -8,14 +8,20 @@ export default function Biometrics() {
         <p className="biometrics-title">Βιομετρικά</p>
         <div className="heartrate-container-info">
           <p> ❤️ {workers[0].heartRate} bpm</p>
-          <span>Κόπωση: {workers[0].fatigue}</span>
+          <span className={`fatigue-level-${workers[0].fatigue}`}>
+            Κόπωση: {workers[0].fatigue}
+          </span>
         </div>
       </div>
       <div className="device-container">
         <p className="biometrics-title">Συσκευή</p>
         <div className="device-container-info">
           <p> 🔋 {workers[0].battery}%</p>
-          <span>Συνδεμένη</span>
+          <span
+            className={`battery-status-${workers[0].connected ? "connected" : "disconnected"}`}
+          >
+            Συνδεμένη
+          </span>
         </div>
       </div>
       <p className="biometrics-title">Τάση Παλμών (τελευταία ώρα)</p>

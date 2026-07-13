@@ -17,7 +17,10 @@ export default function Notification({ severity, type, message, time }) {
         <p>{message}</p>
       </div>
       <div className="notification-card-footer">
-        <p>{time}</p>
+        <div>
+          <p>Εργαζόμενος</p>
+          <p>{time}</p>
+        </div>
         <button>Ack</button>
       </div>
     </div>

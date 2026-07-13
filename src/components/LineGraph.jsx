@@ -54,5 +54,9 @@ export default function LineGraph() {
     ],
   };
 
-  return <Line className="line-graph" options={options} data={data} />;
+  return (
+    <div className="line-graph">
+      <Line options={options} data={data} />
+    </div>
+  );
 }

@@ -28,6 +28,7 @@ export const workers = [
     complianceScore: 95,
   },
 ];
+
 export const alerts = [
   {
     id: "AL-1",

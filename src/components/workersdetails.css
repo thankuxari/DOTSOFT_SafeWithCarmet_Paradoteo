@@ -24,3 +24,16 @@
   gap: 1rem;
   margin-top: 1rem;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .worker-details-live-information {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  .worker-details-live-information {
+    gap: 3rem;
+  }
+  
+}

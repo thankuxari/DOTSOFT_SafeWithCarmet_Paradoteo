@@ -1,3 +1,19 @@
 .line-graph {
-  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  height: 150px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .line-graph {
+    max-width: 300px;
+    height: 130px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .line-graph {
+    max-width: 420px;
+    height: 150px;
+  }
 }

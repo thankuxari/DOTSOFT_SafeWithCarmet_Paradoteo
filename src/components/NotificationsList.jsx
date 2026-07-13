@@ -8,7 +8,7 @@ export default function NotificationsList() {
       <div className="notifications-container-header">
         <h2 className="dashboard-titles">Ειδοποιήσεις</h2>
         <span className="notifications-alert-count-badge">
-          2 Critical &#183; 3 High
+          {alerts.length} Critical &#183; 3 High
         </span>
       </div>
       <div className="notifications-container-list">

@@ -15,3 +15,15 @@
   align-items: center;
   gap: var(--spacer-lg);
 }
+
+.fatigue-level-medium {
+  color: var(--status-high);
+}
+
+.fatigue-level-high {
+  color: var(--status-critical);
+}
+
+.battery-status-connected {
+  color: var(--status-ok);
+}

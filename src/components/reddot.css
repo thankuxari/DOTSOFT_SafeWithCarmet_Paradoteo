@@ -1,4 +1,17 @@
 .red-dot {
-    color: var(--status-critical);
-    font-size: 30px;
+  color: var(--status-critical);
+  font-size: 30px;
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0%,
+  90%,
+  100% {
+    opacity: 1;
+  }
+
+  95% {
+    opacity: 0;
+  }
 }
