@@ -1,0 +1,26 @@
+.role-compliance-chart-container {
+  height: 350px;
+  width: 100%;
+  padding: var(--spacer-md) 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .role-compliance-chart-container {
+    max-width: 600px;
+    height: 230px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .role-compliance-chart-container {
+    max-width: 820px;
+    height: 280px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  .role-compliance-chart-container {
+    max-width: 920px;
+    height: 380px;
+  }
+}

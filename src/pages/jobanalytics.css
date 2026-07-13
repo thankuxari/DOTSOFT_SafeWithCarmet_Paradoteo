@@ -1,0 +1,47 @@
+.job-analytics-header-container h2 {
+  margin: var(--spacer-lg) 0rem;
+}
+
+.job-analytics-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  gap: var(--spacer-lg);
+}
+
+.job-analytics-map-compliance-graph-container {
+  background-color: var(--card-bg);
+  border: 2px solid;
+  border-color: var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 2rem 1rem;
+}
+
+.job-analytics-common-violations-container {
+  background-color: var(--card-bg);
+  border: 2px solid;
+  border-color: var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-lg);
+}
+
+.job-analytics-summary-container {
+  background-color: var(--card-bg);
+  border: 2px solid;
+  border-color: var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 2rem 1.5rem;
+  margin-top: var(--spacer-lg);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .job-analytics-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+}
